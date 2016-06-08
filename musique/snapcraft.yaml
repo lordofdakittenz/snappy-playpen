@@ -32,8 +32,11 @@ parts:
       - etc
       - -usr/share/doc
     stage-packages:
+      - fontconfig-config
       - libqt4-sql-sqlite
       - libqtcore4
+      - phonon
+      - phonon-backend-gstreamer
   env:
     plugin: copy
     files:
